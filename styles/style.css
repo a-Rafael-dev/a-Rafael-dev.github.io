@@ -50,14 +50,6 @@ header {
     transition: 0.4s;
 }
 
-@media screen and (max-width:768px){
-
-    .sites-grid{
-        grid-template-columns: 1fr;
-        max-width: 50%;
-        margin: 0 auto;
-    }
-}
 
 @media screen and (max-width:1024px){
 
