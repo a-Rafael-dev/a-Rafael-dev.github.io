@@ -59,10 +59,12 @@ header {
     }
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width:1024px){
 
-    .sites-grid {
+    .sites-grid{
+        grid-template-columns: 1fr;
         max-width: 75%;
+        margin: 0 auto;
     }
     .sites img {
         width: 100%;
@@ -70,7 +72,3 @@ header {
         height: auto;
     }
 }
-
-
-
-
