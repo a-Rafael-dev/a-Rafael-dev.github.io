@@ -35,7 +35,7 @@ header {
 }
 
 .sites {
-    margin-left:0px 5% 0 5%;
+    margin:10px 5% 0 5%;
     cursor: pointer;
     filter: brightness(80%);
 }
@@ -50,7 +50,6 @@ header {
     transition: 0.4s;
 }
 
-
 @media screen and (max-width:1024px){
 
     .sites-grid{
@@ -64,3 +63,7 @@ header {
         height: auto;
     }
 }
+
+
+
+

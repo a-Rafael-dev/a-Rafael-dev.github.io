@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"> 
+    <meta name="keywords" content="site,empresa,projeto03">
+    <meta name="author" content="Rafael O.">
+    <meta name="description" content="site,brabo">
+    <title>Projeto 03</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css" type="text/css">
+</head>
+
+<body>
+    
+    <header>
+        <div class="container">
+            <div class="logo"></div>
+
+            <nav class="desktop-menu">
+                <ul>
+                    <li> <a href="">Home</a></li>
+                    <li> <a href="">Serviços</a></li>
+                    <li> <a href="">Sobre</a></li>
+                    <li> <a href="">Contato</a></li>
+              </ul>
+            </nav>
+
+            <nav class="mobile-menu">
+                <ul>
+                    <li> <a href="">Home</a></li>
+                    <li> <a href="">Serviços</a></li>
+                    <li> <a href="">Sobre</a></li>
+                    <li> <a href="">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    <div class="clear"></div>
+
+    <div class="chamada1">
+        <h2>Sistemas próprios<br/> 
+        Para empresas autênticas</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu ligula pretium, vestibulum sem quis, malesuada leo.</p>
+    </div>
+    </header>
+
+    <section class="sessao1">
+        <div class="container">
+            <div class="text-sessao1">
+                <h2>Desenvolvemos sistemas unicos</h2>
+                <p>Lorem ipsum dolor sit</p>
+                <ul>
+                    <li>lorem</li>
+                    <li>ipsum</li>
+                    <li>dolor sit</li>
+                    <div class="clear"></div>
+                </ul>
+                <div class="clear"></div>
+                <div class="btn1-texto"> Entre em contanto</div>
+            </div>
+            <div class="device-sessao1"></div>
+            <div class="clear"></div>
+        </div>    
+    </section>
+
+    <section class="sessao2">
+        <div class="container">
+            <h2>Desenvolvido de pessoas, para pessoas.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu ligula pretium, vestibulum sem quis, malesuada leo. Proin lacinia nibh nibh, ut euismod sem semper quis. Proin ultrices velit nisl, eu porta ipsum maximus a. Aenean suscipit ex eget consequat pharetra. Cras dictum accumsan est blandit malesuada. Phasellus mattis, tellus sit amet sodales mattis, libero elit faucibus erat, eget bibendum urna velit ut mi. </p>
+            <img src="images/mockup.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="sessao3">
+        <div class="parte1">
+            <div class="wrapper-parte1">
+            <h2>Nosso time</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu ligula pretium, vestibulum sem quis, malesuada leo. Proin lacinia nibh nibh, ut euismod sem semper quis. Proin ultrices velit nisl, eu porta ipsum maximus a.</p>
+            </div>
+        </div>
+
+        <div class="parte2">
+            <div class="sobre-autor">
+                <div class="titulo-autor">
+                    <div class="wrapper-titulo-autor">
+                    <h2>Funcionário 1</h2>
+                    <p>Co-founder/Desenvolvedor</p>
+                    </div>
+                    <div class="img-autor"></div> 
+                </div>
+                <div class="texto-autor">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu ligula pretium, vestibulum sem quis, malesuada leo. Proin lacinia nibh nibh, ut euismod sem semper quis</p>
+                </div>
+            </div>
+            <div class="slider-bullets">
+                <span style="background-color: rgb(145, 145, 145);"></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </section>
+
+    <section class="sessao4">
+        <div class="container">
+            <div class="form">
+                <h2>Entre em contato</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu ligula pretium, vestibulum sem quis, malesuada leo. Proin lacinia nibh nibh, ut euismod sem semper quis. Proin ultrices velit nisl, eu porta ipsum maximus a.</p>
+                <form action="">
+                    <input type="text" name="nome" placeholder="Nome*">
+                    <input type="email" name="nome" placeholder="E-mail*">
+                    <textarea name="mensagem" placeholder="Mensagem*"></textarea>
+                    <div class="clear"></div>
+                    <div><input type="submit" value="Enviar"></div>
+                </form>
+            </div>
+            
+            <div class="map-wrapper">
+                <h2>Faça uma visita</h2>
+                <div class="map-wrapper3">
+                    <div class="map-wrapper2">
+                        <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCx8sh_HlLuleKqI2-ujHXj3P4jZfhnSUQ'></script><div class="map" id='gmap_canvas'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style> <a href='http://maps-generator.com/pt'>maps-generator.com</a><script type='text/javascript'>function init_map(){var myOptions = {zoom:15,center:new google.maps.LatLng(-27.586811,-48.54557299999999),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(-27.586811,-48.54557299999999)});infowindow = new google.maps.InfoWindow({content:'<p style="color:black;text-align:left;font-weight:bold;">Meu Mapa</p><p style="color:black;text-align:left;">Rua Rafael Bandeira Florianópolis</p><br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+                    </div>
+                </div>
+            </div>
+
+            <div class="clear"></div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Todos os direitos reservados.</p>
+            <p>Contato@dankicode.com</p>
+            <div class="clear"></div>
+        </div>
+    </footer>
+
+</body>
+</html>
